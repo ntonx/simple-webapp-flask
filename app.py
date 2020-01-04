@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome im being edited since the local environment!"
+    return "Welcome im being edited since the local environment. If it works is cause deployment is done automatically!"
 
 @app.route('/how are you')
 def hello():
